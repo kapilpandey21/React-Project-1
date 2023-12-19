@@ -28,8 +28,8 @@ const TextEditor = (props) => {
 
   const copyAll = () =>{
     let text = document.getElementById("mybox")
-    text.select()
-    navigator.clipboard.writeText(textArea)
+    text.select
+    // navigator.clipboard.writeText(textArea)
 
   }
   
